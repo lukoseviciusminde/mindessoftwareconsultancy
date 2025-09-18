@@ -1,7 +1,7 @@
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     if (window.scrollY > 100) {
-        nav.style.padding = '0.5rem 2rem';
+        nav.style.padding = '1rem 2rem';
         nav.style.background = 'rgba(15, 23, 42, 0.95)';
     } else {
         nav.style.padding = '1rem 2rem';

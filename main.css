@@ -119,7 +119,7 @@
         .mobile-nav {
             display: none;
             position: fixed;
-            top: 60px;
+            top: 58px;
             left: 0;
             right: 0;
             background: rgba(15, 23, 42, 0.98);
@@ -643,5 +643,15 @@
             .features-two-col { grid-template-columns: 1fr; }
             .features-four-col { 
                 grid-template-columns: 1fr; 
+            }
+        }
+
+        @media (max-width: 500px) {
+            .logo {
+                font-size: 1rem;
+            }
+
+            .method-details span {
+                font-size: 0.6rem;
             }
         }
